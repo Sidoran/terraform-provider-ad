@@ -9,3 +9,4 @@
 - Merged additional group attributes [hanneshayashi](https://github.com/hanneshayashi/terraform-provider-ad/tree/additional-group-attributes)
 - Merged main branch from the shubhambjadhavar repository [shubhambjadhavar](https://github.com/shubhambjadhavar/terraform-provider-ad)
 - Merged main branch from the randomswdev repository [randomswdev](https://github.com/randomswdev/terraform-provider-ad.git)
+- Updated actions/checkout version
