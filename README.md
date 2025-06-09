@@ -1,27 +1,30 @@
-<a href="https://terraform.io">
-    <img src="https://github.com/hashicorp/terraform-provider-azurerm/raw/main/.github/tf.png" alt="Terraform logo" title="Terraform" align="left" height="50" />
-</a>
-
 # Terraform Provider for Windows Active Directory (AD)
 
-![Status: Tech Preview](https://img.shields.io/badge/status-experimental-EAAA32) [![Releases](https://img.shields.io/github/release/hashicorp/terraform-provider-ad.svg)](https://github.com/hashicorp/terraform-provider-ad/releases)
-[![LICENSE](https://img.shields.io/github/license/hashicorp/terraform-provider-ad.svg)](https://github.com/hashicorp/terraform-provider-ad/blob/main/LICENSE)
-![Unit tests](https://github.com/hashicorp/terraform-provider-ad/workflows/Unit%20tests/badge.svg)
+![Status: Tech Preview](https://img.shields.io/badge/status-experimental-EAAA32) [![Releases](https://img.shields.io/github/release/Sidoran/terraform-provider-ad.svg)](https://github.com/Sidoran/terraform-provider-ad/releases)
+[![LICENSE](https://img.shields.io/github/license/Sidoran/terraform-provider-ad.svg)](https://github.com/Sidoran/terraform-provider-ad/blob/main/LICENSE)
+![Unit tests](https://github.com/Sidoran/terraform-provider-ad/workflows/Unit%20tests/badge.svg)
 
 This Windows AD provider for Terraform allows you to manage users, groups and group policies in your AD installation.
 
-This provider is a technical preview, which means it's a community supported project. It still requires extensive testing and polishing to mature into a HashiCorp officially supported project. Please [file issues](https://github.com/hashicorp/terraform-provider-ad/issues/new/choose) generously and detail your experience while using the provider. We welcome your feedback.
+This provider is a technical preview, which means it's a community supported project. Please [file issues](https://github.com/Sidoran/terraform-provider-ad/issues/new/choose) generously and detail your experience while using the provider. We welcome your feedback.
 
-By using the software in this repository (the AD provider), you acknowledge that: 
-* The AD provider is still in development, may change, and has not been released as a commercial product by HashiCorp and is not currently supported in any way by HashiCorp.
+By using the software in this repository (the AD provider), you acknowledge that:
+
 * The AD provider is provided on an "as-is" basis, and may include bugs, errors, or other issues.
-* The AD provider is NOT INTENDED FOR PRODUCTION USE, use of the Software may result in unexpected results, loss of data, or other unexpected results, and HashiCorp disclaims any and all liability resulting from use of the AD provider.
-* HashiCorp reserves all rights to make all decisions about the features, functionality and commercial release (or non-release) of the AD provider, at any time and without any obligation or liability whatsoever.
+* The AD provider is NOT INTENDED FOR PRODUCTION USE, use of the Software may result in unexpected results, loss of data, or other unexpected results.
+
+## Fork Notice
+
+This project is a fork of [terraform-provider-ad](https://github.com/Sidoran/terraform-provider-ad), originally developed by [Hashicorp]. At the time of the fork creation  (May 2025) the original project has no changes for 2 years and a lot of uncommitted PRs. It is licensed under the Mozilla Public License 2.0 (MPL-2.0).
+
+This fork is independently maintained and may diverge from the original project in features and functionality.
+
+Significant modifications have been made since the fork. See the [CHANGELOG](./CHANGELOG.md) for details.
 
 ## Requirements
 
 * [Terraform](https://www.terraform.io/downloads.html) version 0.12.x+
-* [Windows Server](https://www.microsoft.com/en-us/windows-server) 2012R2 or greater 
+* [Windows Server](https://www.microsoft.com/en-us/windows-server) 2012R2 or greater
 * [Go](https://golang.org/doc/install) version 1.16.x+
 
 ## Getting Started
@@ -32,6 +35,6 @@ Once you have the plugin installed, review the [docs](docs/) folder to understan
 
 ## Contributing
 
-We welcome your contribution. Please understand that the experimental nature of this repository means that contributing code may be a bit of a moving target. If you have an idea for an enhancement or bug fix, and want to take on the work yourself, please first [create an issue](https://github.com/hashicorp/terraform-provider-ad/issues/new/choose) so that we can discuss the implementation with you before you proceed with the work.
+We welcome your contribution. Please understand that the experimental nature of this repository means that contributing code may be a bit of a moving target. If you have an idea for an enhancement or bug fix, and want to take on the work yourself, please first [create an issue](https://github.com/Sidoran/terraform-provider-ad/issues/new/choose) so that we can discuss the implementation with you before you proceed with the work.
 
 You can review our [contribution guide](_about/CONTRIBUTING.md) to begin. You can also check out our [frequently asked questions](_about/FAQ.md).
