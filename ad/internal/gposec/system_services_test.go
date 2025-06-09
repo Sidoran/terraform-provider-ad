@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-provider-ad/ad/internal/adschema"
+	"github.com/Sidoran/terraform-provider-ad/ad/internal/adschema"
 	"gopkg.in/ini.v1"
 )
 
