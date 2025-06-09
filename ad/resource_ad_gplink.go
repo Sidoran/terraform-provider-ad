@@ -6,9 +6,9 @@ import (
 
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/config"
 
+	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 	"github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 )
 
 func resourceADGPLink() *schema.Resource {

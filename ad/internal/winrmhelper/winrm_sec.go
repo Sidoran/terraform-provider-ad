@@ -8,8 +8,8 @@ import (
 
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/config"
 
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/gposec"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/packer-community/winrmcp/winrmcp"
 	"gopkg.in/ini.v1"
 )

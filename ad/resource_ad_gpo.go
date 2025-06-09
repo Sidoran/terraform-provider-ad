@@ -5,9 +5,9 @@ import (
 
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/config"
 
+	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 )
 
 func resourceADGPO() *schema.Resource {

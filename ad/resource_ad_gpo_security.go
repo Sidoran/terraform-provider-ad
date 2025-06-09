@@ -9,11 +9,11 @@ import (
 
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/config"
 
-	"github.com/hashicorp/go-uuid"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/adschema"
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/gposec"
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
+	"github.com/hashicorp/go-uuid"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 
 func resourceADGPOSecurity() *schema.Resource {

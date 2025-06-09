@@ -8,9 +8,9 @@ import (
 
 	"github.com/Sidoran/terraform-provider-ad/ad/internal/config"
 
+	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 )
 
 func TestAccResourceADComputer_basic(t *testing.T) {

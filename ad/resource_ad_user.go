@@ -10,9 +10,9 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 
+	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/Sidoran/terraform-provider-ad/ad/internal/winrmhelper"
 )
 
 func resourceADUser() *schema.Resource {
